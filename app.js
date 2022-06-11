@@ -12,8 +12,9 @@ btn.addEventListener ("click",()=>{
 })
 $('#button-66').on('mouseover', function() {
     $(this).css({
-      'top': Math.random() * window.innerHeight - 350+ "px",
-      'left': Math.random() * window.innerWidth - 350+ "px"
+       "display" : "relative",
+      'top': Math.random() * 70-40+ "vh",
+      'left': Math.random() * 70-20+ "vw"
     } );
   })
 btnAccept.addEventListener ("click",()=>{

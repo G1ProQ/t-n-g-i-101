@@ -13,8 +13,8 @@ body{
     color: #444;
     background-image: url("assets/imgs/HD\ wallpaper_\ Anime\,\ Your\ Name_.jfif");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 170%;
+    background-position: initial;
+    background-size: 100%;
     position: fixed;
     
 }
@@ -83,6 +83,7 @@ img{
   /* margin-left: 605px;
   transform: translateY(-151px); */
 margin-left: 47%;
+
 }
 
 #button-85:before {
@@ -252,7 +253,7 @@ margin-left: 47%;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
-  display: inherit;
+  display:inherit ;
 
   font-size: 18px;
   font-weight: 700;
